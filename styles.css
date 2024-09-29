@@ -7,23 +7,11 @@ body {
 }
 
 header {
-  background: radial-gradient(circle, rgba(50, 50, 50, 0.9), #1a1a1a 70%);
+  background: linear-gradient(135deg, #333, #1a1a1a); /* Dark metallic gradient */
   text-align: center;
   padding: 80px 20px;
   position: relative;
   overflow: hidden;
-}
-
-header::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: url('https://i.imgur.com/fHsSDhX.jpg'); /* Dark metallic pattern */
-  opacity: 0.2;
-  filter: grayscale(100%);
 }
 
 .hero h1 {
@@ -67,7 +55,7 @@ main {
 
 h2 {
   font-size: 42px;
-  color: #e0e0e0;
+  color: #ffcc00; /* Orange accent for headers */
   text-shadow: 1px 1px 8px #000;
   margin-bottom: 30px;
   text-transform: uppercase;
@@ -100,8 +88,8 @@ p {
 .benefits-list li {
   margin: 15px 0;
   padding: 10px;
-  background-color: #333;
-  color: #ffcc00;
+  background-color: #222; /* Dark background for list items */
+  color: #ffcc00; /* Orange accent for text */
   font-weight: bold;
   display: flex;
   align-items: center;
